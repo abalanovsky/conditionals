@@ -32,6 +32,6 @@ if (sport === 'Теніс') {
     sportsMessage += 'Хідекі Мацуяма?'
 } else if (sport === 'Бокс') {
     sportsMessage += 'Олександром Усиком?'
-} else sportsMessage = ''
+} else sportsMessage = `Твій улюблений вид спорту ${sport}`
 
 alert(`Твій вік: ${age}\n${geoMessage}\n${sportsMessage}`)
